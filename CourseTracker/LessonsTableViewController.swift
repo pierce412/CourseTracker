@@ -49,7 +49,12 @@ class LessonsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         
         if LessonController.sharedController.lessons.count / 5 == section {
-            return LessonController.sharedController.lessons.count % 5
+            let remainder = LessonController.sharedController.lessons.count % 5
+            if remainder == 0 {
+                return 5
+            } else {
+                return remainder
+            }
         } else {
             return 5
         }

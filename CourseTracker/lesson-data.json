@@ -1396,5 +1396,29 @@
          }
       ],
       "projects":null
-   }
+   },
+ {
+ "name":"last lesson",
+ "lessonID":30,
+ "reviewedForiOS5":false,
+ "description":"",
+ "instructorNotes":"",
+ "studentNotes":"",
+ "objectives":[
+               {
+               "studentCan":"continue learning iOS development after class ends",
+               "objectiveID":12.12,
+               "time":15
+               }
+               ],
+ "video":[
+          {
+          "cohort":"iOS4",
+          "instructor":null,
+          "url":null,
+          "description":null
+          }
+          ],
+ "projects":null
+ }
 ]

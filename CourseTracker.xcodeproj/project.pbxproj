@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015FCC6D1C6E4CFA00E883E0 /* LessonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FCC6C1C6E4CFA00E883E0 /* LessonsTableViewController.swift */; };
+		015FCC6F1C6E526300E883E0 /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FCC6E1C6E526300E883E0 /* LessonTableViewCell.swift */; };
+		015FCC711C6E5FF800E883E0 /* LessonDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FCC701C6E5FF800E883E0 /* LessonDetailTableViewController.swift */; };
+		015FCC731C6E63F400E883E0 /* ObjectiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FCC721C6E63F400E883E0 /* ObjectiveTableViewCell.swift */; };
 		01CBF0741C6DBDDF0033B8C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBF0731C6DBDDF0033B8C7 /* AppDelegate.swift */; };
-		01CBF0761C6DBDDF0033B8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBF0751C6DBDDF0033B8C7 /* ViewController.swift */; };
 		01CBF0791C6DBDDF0033B8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CBF0771C6DBDDF0033B8C7 /* Main.storyboard */; };
 		01CBF07B1C6DBDDF0033B8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CBF07A1C6DBDDF0033B8C7 /* Assets.xcassets */; };
 		01CBF07E1C6DBDDF0033B8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CBF07C1C6DBDDF0033B8C7 /* LaunchScreen.storyboard */; };
@@ -38,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015FCC6C1C6E4CFA00E883E0 /* LessonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsTableViewController.swift; sourceTree = "<group>"; };
+		015FCC6E1C6E526300E883E0 /* LessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
+		015FCC701C6E5FF800E883E0 /* LessonDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonDetailTableViewController.swift; sourceTree = "<group>"; };
+		015FCC721C6E63F400E883E0 /* ObjectiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectiveTableViewCell.swift; sourceTree = "<group>"; };
 		01CBF0701C6DBDDF0033B8C7 /* CourseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CBF0731C6DBDDF0033B8C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01CBF0751C6DBDDF0033B8C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01CBF0781C6DBDDF0033B8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01CBF07A1C6DBDDF0033B8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01CBF07D1C6DBDDF0033B8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,12 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				01CBF0731C6DBDDF0033B8C7 /* AppDelegate.swift */,
-				01CBF0751C6DBDDF0033B8C7 /* ViewController.swift */,
+				015FCC6C1C6E4CFA00E883E0 /* LessonsTableViewController.swift */,
 				01CBF0A11C6DBE060033B8C7 /* LessonController.swift */,
 				01CBF0A71C6DC0EC0033B8C7 /* Objective.swift */,
 				01CBF0A51C6DBFF30033B8C7 /* Lesson.swift */,
 				01CBF0A31C6DBED50033B8C7 /* lesson-data.json */,
 				01CBF0771C6DBDDF0033B8C7 /* Main.storyboard */,
+				015FCC721C6E63F400E883E0 /* ObjectiveTableViewCell.swift */,
+				015FCC701C6E5FF800E883E0 /* LessonDetailTableViewController.swift */,
+				015FCC6E1C6E526300E883E0 /* LessonTableViewCell.swift */,
 				01CBF07A1C6DBDDF0033B8C7 /* Assets.xcassets */,
 				01CBF07C1C6DBDDF0033B8C7 /* LaunchScreen.storyboard */,
 				01CBF07F1C6DBDDF0033B8C7 /* Info.plist */,
@@ -269,11 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015FCC6D1C6E4CFA00E883E0 /* LessonsTableViewController.swift in Sources */,
+				015FCC711C6E5FF800E883E0 /* LessonDetailTableViewController.swift in Sources */,
 				01CBF0A81C6DC0EC0033B8C7 /* Objective.swift in Sources */,
 				01CBF0A61C6DBFF30033B8C7 /* Lesson.swift in Sources */,
-				01CBF0761C6DBDDF0033B8C7 /* ViewController.swift in Sources */,
 				01CBF0741C6DBDDF0033B8C7 /* AppDelegate.swift in Sources */,
+				015FCC731C6E63F400E883E0 /* ObjectiveTableViewCell.swift in Sources */,
 				01CBF0A21C6DBE060033B8C7 /* LessonController.swift in Sources */,
+				015FCC6F1C6E526300E883E0 /* LessonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				01CBF09A1C6DBDDF0033B8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CBF09B1C6DBDDF0033B8C7 /* Build configuration list for PBXNativeTarget "CourseTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				01CBF09D1C6DBDDF0033B8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CBF09E1C6DBDDF0033B8C7 /* Build configuration list for PBXNativeTarget "CourseTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				01CBF0A01C6DBDDF0033B8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,7 @@ import Foundation
 
 class LessonController {
     
+    
     //CREATE -
     func insertNewCourse() -> Lesson {
         let newCourse = Lesson()

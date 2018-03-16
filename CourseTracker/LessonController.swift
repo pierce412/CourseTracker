@@ -11,7 +11,7 @@ import Foundation
 class LessonController {
     
     
-    //CREATE -
+    //CREATE 
     func insertNewCourse() -> Lesson {
         let newCourse = Lesson()
         lessons.append(newCourse)
